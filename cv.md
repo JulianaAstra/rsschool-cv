@@ -43,7 +43,7 @@ def multiply(a, b):
 
 ### Experience:
 
-I have little experience in Frontend development.  
+I have little experience in Frontend development..  
 This CV is actually my first project.
 
 ---
