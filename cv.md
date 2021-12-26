@@ -15,7 +15,7 @@
 
 ### Briefly About Myself:
 
-I am an smm manager, I keep an account of a toy store on Instagram in English. I was looking for myself in creativity until a few days ago, but now I've decided to change my occupation. I have always been interested in computer science, so I want to try myself in programming. Now I want to become a frontend developer and start a career in this field. Among my strengths are the self-studying and searching for information, system thinking, and a creative approach to work..
+I am an smm manager, I keep an account of a toy store on Instagram in English. I was looking for myself in creativity until a few days ago, but now I've decided to change my occupation. I have always been interested in computer science, so I want to try myself in programming. Now I want to become a frontend developer and start a career in this field. Among my strengths are the self-studying and searching for information, system thinking, and a creative approach to work.
 
 ---
 
