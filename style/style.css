@@ -1,6 +1,96 @@
-p {
+@font-face {
+  font-family: "Quicksand"; 
+  src: url("/fonts/Quicksand/Quicksand-Bold.ttf") format("truetype"); 
+  font-style: normal; 
+  font-weight: normal; 
+}
+
+@font-face {
+  font-family: "Quicksand"; 
+  src: url("/fonts/Quicksand/Quicksand-Medium.ttf") format("truetype"); 
+  font-style: normal; 
+  font-weight: normal; 
+} 
+
+@font-face {
+  font-family: "Quicksand"; 
+  src: url("/fonts/Quicksand/Quicksand-Light.ttf") format("truetype"); 
+  font-style: normal; 
+  font-weight: normal; 
+}
+
+@font-face {
+  font-family: "Quicksand"; 
+  src: url("/fonts/Quicksand/Quicksand-Regular.ttf") format("truetype"); 
+  font-style: normal; 
+  font-weight: normal; 
+}
+
+@font-face {
+  font-family: "Quicksand"; 
+  src: url("fonts/Quicksand/Quicksand-SemiBold.ttf") format("truetype"); 
+  font-style: normal; 
+  font-weight: normal; 
+}
+
+@font-face {
+  font-family: "Quicksand"; 
+  src: url("fonts/Quicksand/Quicksand-VariableFont_wght") format("truetype"); 
+  font-style: normal; 
+  font-weight: normal; 
+}
+nav {
+  padding: 15px;
+  margin: 0;  
+  background: #fccb4a;
+}
+.navigation {
+  display: flex;
+  justify-content: space-around;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  font-family: Quicksand;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 11px;
+}
+
+a {
+  color: #000000;
+  text-decoration: none;
+}
+
+a:active {
   color: #000000;
 }
-h1 {
-  text-align: center;
+
+ul.navigation a:hover {
+  position: relative;
+  top: -5px;
+  
+}
+
+.basic_information {
+  float: left;
+  width: 50%;
+}
+
+.more_information {
+  float: right;
+  width: 50%;
+}
+
+main {
+  width: 100%;
+}
+
+.footer {
+  display: inline-block;
+  list-style: none;
+}
+
+body {
+  font-family: Quicksand, sans-serif;
 }
