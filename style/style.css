@@ -7,21 +7,21 @@
 
 @font-face {
   font-family: "Quicksand"; 
-  src: url("../fonts/Quicksand-Medium.ttf") format("truetype"); 
+  src: url("../fonts/Quicksand-Medium.otf") format("opentype"); 
   font-style: normal; 
   font-weight: normal; 
 } 
 
 @font-face {
   font-family: "Quicksand"; 
-  src: url("../fonts/Quicksand-Light.ttf") format("truetype"); 
+  src: url("../fonts/Quicksand-Light.otf") format("opentype"); 
   font-style: normal; 
   font-weight: normal; 
 }
 
 @font-face {
   font-family: "Quicksand"; 
-  src: url("../fonts/Quicksand-Regular.ttf") format("truetype"); 
+  src: url("../fonts/Quicksand-Regular.otf") format("opentype"); 
   font-style: normal; 
   font-weight: normal; 
 }
