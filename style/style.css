@@ -1,27 +1,27 @@
 @font-face {
   font-family: "Quicksand"; 
-  src: url("rsschool-cv/fonts/Quicksand-Bold.ttf") format("truetype"); 
+  src: url("../fonts/Quicksand-Bold.ttf") format("truetype"); 
   font-style: normal; 
   font-weight: normal; 
 }
 
 @font-face {
   font-family: "Quicksand"; 
-  src: url("rsschool-cv/fonts/Quicksand-Medium.ttf") format("truetype"); 
+  src: url("../fonts/Quicksand-Medium.ttf") format("truetype"); 
   font-style: normal; 
   font-weight: normal; 
 } 
 
 @font-face {
   font-family: "Quicksand"; 
-  src: url("rsschool-cv/fonts/Quicksand-Light.ttf") format("truetype"); 
+  src: url("../fonts/Quicksand-Light.ttf") format("truetype"); 
   font-style: normal; 
   font-weight: normal; 
 }
 
 @font-face {
   font-family: "Quicksand"; 
-  src: url("rsschool-cv/fonts/Quicksand-Regular.ttf") format("truetype"); 
+  src: url("../fonts/Quicksand-Regular.ttf") format("truetype"); 
   font-style: normal; 
   font-weight: normal; 
 }
