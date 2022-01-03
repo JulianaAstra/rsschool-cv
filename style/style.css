@@ -1,0 +1,219 @@
+@font-face {
+  font-family: "Quicksand"; 
+  src: url("/fonts/Quicksand-Bold.ttf") format("truetype"); 
+  font-style: normal; 
+  font-weight: normal; 
+}
+
+@font-face {
+  font-family: "Quicksand"; 
+  src: url("/fonts/Quicksand-Medium.ttf") format("truetype"); 
+  font-style: normal; 
+  font-weight: normal; 
+} 
+
+@font-face {
+  font-family: "Quicksand"; 
+  src: url("/fonts/Quicksand-Light.ttf") format("truetype"); 
+  font-style: normal; 
+  font-weight: normal; 
+}
+
+@font-face {
+  font-family: "Quicksand"; 
+  src: url("/fonts/Quicksand-Regular.ttf") format("truetype"); 
+  font-style: normal; 
+  font-weight: normal; 
+}
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+html {
+  height: 100%;
+}
+nav {
+  padding: 15px;
+  margin: 0;  
+  background: #fccb4a;
+}
+.navigation {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  font-family: Quicksand;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 15px;
+  line-height: 11px;
+}
+.link {
+  color: #000000;
+  text-decoration-color: #fccb4a;
+}
+
+.link:hover {
+  background: #fccb4a;
+}
+
+ul.navigation a {
+  color: #000000;
+  text-decoration: none;
+}
+
+ul.navigation a:active {
+  color: #000000;
+}
+
+ul.navigation a:hover {
+  position: relative;
+  top: -5px;
+  
+}
+
+.basic_information {
+  float: left;
+  width: 25%;
+  flex: 1 1 auto;
+  margin: 0 24px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-bottom: 60px;
+  background: #fafafa;
+}
+
+.more_information {
+  margin-top: 31px;
+  flex: 1 1 auto;
+  margin: 0 24px;
+}
+
+main {
+  flex: 1;
+  padding-bottom: 90px;
+}
+
+.footer {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  align-items: center;
+}
+
+body {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+  font-family: Quicksand, sans-serif;
+}
+
+.wrapper {
+    width:960px;
+    margin:0 auto 50px;
+
+}
+
+.wrapper_footer {
+  width:960px;
+  margin:0 auto;
+}
+
+.python {
+  background: #fafafa !important;
+  font-size: 15px !important;
+}
+
+.list_skills {
+  list-style: circle;
+  list-style-position: inside;
+}
+
+.languages {
+  list-style: circle;
+  list-style-position: inside;
+}
+
+.education {
+  list-style-position: inside;
+}
+
+.rs-logo {
+  height: 30px;
+}
+
+.git-logo-name {
+  display: flex;
+  align-items: center;
+}
+
+.git-logo {
+  margin-right: 7px;
+}
+
+.grid_element_2 {
+  justify-self: center;
+}
+
+.grid_element_3 {
+  justify-self: end;
+}
+
+.avatar {
+  display: grid;
+  align-items: center;
+  justify-content: center;
+  margin-top: 31px;
+  margin-bottom: 60px;
+}
+
+.face {
+  justify-self: center;
+}
+
+h1 {
+  justify-self: center;
+  font-size: 18px;
+  padding: 20px;
+}
+
+.job {
+  text-align: center;
+}
+
+h2, h3 {
+  margin-top: 40px;
+  margin-bottom: 20px;
+  margin-left: 0;
+}
+
+h2 {
+  font-size: 20px;
+}
+
+h3 {
+  font-size: 18px;
+}
+
+p, li{
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+.edu-list {
+  list-style: none;
+  position: relative;
+  left: 23px;
+}
+
+hr {
+  margin-top: 10px;
+  margin-bottom: 40px;
+}
+
+.about {
+  text-align: justify;
+}

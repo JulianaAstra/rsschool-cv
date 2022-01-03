@@ -5,10 +5,120 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link href="style.css" rel="stylesheet">
+    <link rel="stylesheet" href="style/style.css">
+    <script src="https://yastatic.net/jquery/3.3.1/jquery.min.js"></script>
+    <script src='http://yastatic.net/highlightjs/8.2/highlight.min.js'></script>
+    <script>hljs.initHighlightingOnLoad();</script>
+    <link href='http://yastatic.net/highlightjs/8.2/styles/solarized_light.min.css' rel='stylesheet'/>
 </head>
 <body>
-    <h1>My Cv</h1>
-   <p>Julia Karnausova</p> 
+    <div class="wrapper">
+        <header>
+            <nav>
+                <ul class="navigation">
+                    <li><a href="#contacts">Contacts</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#code">Code</a></li>
+                    <li><a href="#experience">Experience</a></li>
+                    <li><a href="#education">Education</a></li>
+                    <li><a href="#lang">Languages</a></li>
+                </ul>
+            </nav>
+        </header>
+        <main>
+            <div class="basic_information">
+                <section class="avatar">
+                    <img class="face" src="/img/avatar+.png" alt="photo" width="150" height="150">
+                    <h1>Julia Karnausova</h1>
+                    <p class="job">Junior <br> Frontend Developer</p>
+                </section>
+                <section>
+                    <h2><a name="contacts"></a> information</h2>
+                    <hr>
+                        <h3>Phone</h3> 
+                        <p>+7 920 969 39 99</p>
+                        <h3>E-mail</h3>
+                        <p>julianaas@yandex.ru</p>
+                        <h3>Discord rs-school</h3> 
+                        <a class="link" href="https://discordapp.com/users/378196210835521536/" target="_blank">Julia Karnausova (@JulianaAstra)</a>
+                </section>
+                <section>
+                    <h2><a name="skills"></a>Skills and Proficiency</h2>
+                    <hr>
+                    <ul class="list_skills">
+                        <li>Git, GitHub</li>
+                        <li>VS Code, Sublime</li>
+                        <li>Python (in progress)</li>
+                        <li>HTML5</li>
+                        <li>CSS</li>
+                        <li>JS (in progress)</li>
+                        <li>Figma, Adobe Photoshop</li>
+                    </ul>
+                </section>
+                <section>
+                    <h2><a name="lang"></a>Languages</h2>
+                    <hr>
+                    <ul class="languages">
+                        <li><b>English</b> - A2</li>
+                        <li><b>Russian</b> - Native</li>
+                        <li><b>Greek</b> - Beginner</li>
+                    </ul>
+                </section>
+            </div>
+            <div class="more_information">          
+                <section>
+                    <h2><a name="about"></a>Briefly About Myself</h2>
+                    <p class="about">I am an smm manager, I keep an account of a toy store on Instagram in English. I was looking for myself in creativity until a few days ago, but now I've decided to change my occupation. I have always been interested in computer science, so I want to try myself in programming. Now I want to become a frontend developer and start a career in this field. Among my strengths are the self-studying and searching for information, system thinking, and a creative approach to work.</p>
+                </section>
+                <section>
+                    <h2><a name="code"></a>Code example</h2>
+                    <pre>
+                        <code class="python">
+            def multiply(a, b):
+                result = a * b
+                return result
+                        </code>    
+                    </pre>
+                </section>
+                <section>
+                    <h2><a name="experience"></a>Experience</h2>
+                    <hr>
+                    <p>I have little experience in Frontend development.</p>
+                    <p><a class="link" href="https://JulianaAstra.github.io/rsschool-cv/" target="_blank">This CV</a> is actually my first project.</p>
+                </section>
+                <section>
+                    <h2><a name="education"></a>Education</h2>
+                    <hr>
+                    <ul class="education">
+                        <li>Maxim Gorky Literature Institute
+                            <ul class="edu-list">
+                                <li class="list">Literature worker</li>
+                            </ul>
+                        </li>
+                        <li>Udemy
+                            <ul class="edu-list">
+                                <li class="list"><a class="link" href="https://www.udemy.com/course/the-complete-web-developer-zero-to-mastery/" target="_blank">Web Developer (in progress)</a></li>
+                                <li class="list"><a class="link" href="https://www.udemy.com/course/javascript-zero-to-junior-developer/" target="_blank">JavaScript (in progress)</a></li>
+                            </ul>
+                        </li>
+                        <li><a class="link" href="https://ru.code-basics.com/" target="_blank">CodeBasics</a></li>
+                        <li><a class="link" href="https://www.w3schools.com/" target="_blank">W3Schools</a></li>
+                        <li>RS Schools Course «JavaScript/Front-end. Stage 0»</li>
+                    </ul>
+                </section>
+            </div>
+        </main>
+    </div>    
+    <div class="wrapper_footer">
+        <footer class="footer">
+            <div class="git-logo-name">
+                <img class="git-logo" src="/img/GitHub-Mark.png" alt='git-hub logo' width="30" height="30">
+                <a class="link" href="https://github.com/JulianaAstra" target="_blank">My GitHub</a>
+            </div>
+            <p class="grid_element_2">2021</p>
+            <a class="grid_element_3" href="https://rs.school/js/" target="_blank"><img class="rs-logo" src="/img/rs-logo.png" alt="rs-school logo"></a>
+        </footer>   
+    </div>     
 </body>
 </html>
