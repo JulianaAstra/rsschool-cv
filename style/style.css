@@ -79,11 +79,18 @@ ul.navigation a:hover {
 .basic_information {
   float: left;
   width: 25%;
+  flex: 1 1 auto;
+  margin: 0 24px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-bottom: 60px;
+  background: #fafafa;
 }
 
 .more_information {
-  float: right;
-  width: 75%;
+  margin-top: 31px;
+  flex: 1 1 auto;
+  margin: 0 24px;
 }
 
 main {
@@ -101,9 +108,18 @@ body {
   display: flex;
   min-height: 100vh;
   flex-direction: column;
-  margin: 0 auto;
-  max-width: 1000px;
   font-family: Quicksand, sans-serif;
+}
+
+.wrapper {
+    width:960px;
+    margin:0 auto 50px;
+
+}
+
+.wrapper_footer {
+  width:960px;
+  margin:0 auto;
 }
 
 .python {
@@ -112,7 +128,17 @@ body {
 }
 
 .list_skills {
-  list-style: none;
+  list-style: circle;
+  list-style-position: inside;
+}
+
+.languages {
+  list-style: circle;
+  list-style-position: inside;
+}
+
+.education {
+  list-style-position: inside;
 }
 
 .rs-logo {
@@ -134,4 +160,60 @@ body {
 
 .grid_element_3 {
   justify-self: end;
+}
+
+.avatar {
+  display: grid;
+  align-items: center;
+  justify-content: center;
+  margin-top: 31px;
+  margin-bottom: 60px;
+}
+
+.face {
+  justify-self: center;
+}
+
+h1 {
+  justify-self: center;
+  font-size: 18px;
+  padding: 20px;
+}
+
+.job {
+  text-align: center;
+}
+
+h2, h3 {
+  margin-top: 40px;
+  margin-bottom: 20px;
+  margin-left: 0;
+}
+
+h2 {
+  font-size: 20px;
+}
+
+h3 {
+  font-size: 18px;
+}
+
+p, li{
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+.edu-list {
+  list-style: none;
+  position: relative;
+  left: 23px;
+}
+
+hr {
+  margin-top: 10px;
+  margin-bottom: 40px;
+}
+
+.about {
+  text-align: justify;
 }
