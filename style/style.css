@@ -41,14 +41,15 @@ nav {
 }
 .navigation {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
+  align-items: center;
   margin: 0;
   padding: 0;
   list-style: none;
   font-family: Quicksand;
   font-style: normal;
   font-weight: bold;
-  font-size: 14px;
+  font-size: 15px;
   line-height: 11px;
 }
 .link {
@@ -113,3 +114,4 @@ body {
 .list_skills {
   list-style: none;
 }
+
