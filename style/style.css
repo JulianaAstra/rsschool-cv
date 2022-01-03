@@ -115,3 +115,23 @@ body {
   list-style: none;
 }
 
+.rs-logo {
+  height: 30px;
+}
+
+.git-logo-name {
+  display: flex;
+  align-items: center;
+}
+
+.git-logo {
+  margin-right: 7px;
+}
+
+.grid_element_2 {
+  justify-self: center;
+}
+
+.grid_element_3 {
+  justify-self: end;
+}
