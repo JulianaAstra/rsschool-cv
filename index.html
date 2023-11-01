@@ -76,25 +76,17 @@
                     <h2><a name="code"></a>Code example</h2>
                     <pre>
 <code class="javascript">
-    function sortTrips(trips, sortType) {
-        const sortedTrips = trips.sort((trip1, trip2) => {
-            switch (sortType) {
-            case SortType.TIME:
-                return (
-                findDifference(trip1["timeStart"], trip1["timeEnd"]) -
-                findDifference(trip2["timeStart"], trip2["timeEnd"])
-                );
-            case SortType.PRICE:
-                return trip2["price"] - trip1["price"];
-            default:
-                return (
-                dayjs(trip1["timeStart"].valueOf()) -
-                dayjs(trip2["timeStart"].valueOf())
-                );
+        const canConstruct = (ransomNote, magazine) => {
+            const array = magazine.split('');
+            for (elem of ransomNote) {
+                if (array.indexOf(elem) === -1) {
+                    return false;
+                } else {
+                    array.splice(array.indexOf(elem), 1);
+                }
             }
-        });
-        return sortedTrips;
-        }
+            return true;
+        };
 </code>    
                     </pre>
                 </section>
