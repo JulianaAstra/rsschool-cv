@@ -75,27 +75,27 @@
                 <section>
                     <h2><a name="code"></a>Code example</h2>
                     <pre>
-                        <code class="javascript">
-                            function sortTrips(trips, sortType) {
-                                const sortedTrips = trips.sort((trip1, trip2) => {
-                                  switch (sortType) {
-                                    case SortType.TIME:
-                                      return (
-                                        findDifference(trip1["timeStart"], trip1["timeEnd"]) -
-                                        findDifference(trip2["timeStart"], trip2["timeEnd"])
-                                      );
-                                    case SortType.PRICE:
-                                      return trip2["price"] - trip1["price"];
-                                    default:
-                                      return (
-                                        dayjs(trip1["timeStart"].valueOf()) -
-                                        dayjs(trip2["timeStart"].valueOf())
-                                      );
-                                  }
-                                });
-                                return sortedTrips;
-                              }
-                        </code>    
+<code class="javascript">
+    function sortTrips(trips, sortType) {
+        const sortedTrips = trips.sort((trip1, trip2) => {
+            switch (sortType) {
+            case SortType.TIME:
+                return (
+                findDifference(trip1["timeStart"], trip1["timeEnd"]) -
+                findDifference(trip2["timeStart"], trip2["timeEnd"])
+                );
+            case SortType.PRICE:
+                return trip2["price"] - trip1["price"];
+            default:
+                return (
+                dayjs(trip1["timeStart"].valueOf()) -
+                dayjs(trip2["timeStart"].valueOf())
+                );
+            }
+        });
+        return sortedTrips;
+        }
+</code>    
                     </pre>
                 </section>
                 <section>
@@ -104,18 +104,18 @@
                     <p>As part of my study I independently created:</p>
                     <ul>
                         <li>Two projects at HTML Academy:
-                            <ul>
-                                <li>
+                            <ul class="edu-list">
+                                <li class="list">
                                     <a href="https://github.com/JulianaAstra/Big-Trip" class="link">Big-Trip</a>
                                 </li>
-                                <li>
+                                <li class="list">
                                     <a href="https://github.com/JulianaAstra/Kekstagram" class="link">Kekstagram</a>
                                 </li>
                             </ul>
                         </li>
                         <li>Final project in Netology:
-                            <ul>
-                                <li>
+                            <ul class="edu-list">
+                                <li class="list">
                                     <a href="https://github.com/JulianaAstra/Netology-Diploma" class="link">Diploma</a>
                                 </li>
                             </ul>
@@ -128,12 +128,12 @@
                     <ul class="education">
                         <li><a href="https://htmlacademy.ru/profile/karnausova" class="link">HTML Academy</a>
                             <ul class="edu-list">
-                                <li li class="list">Profession "JavaScript Developer"(in progress)</li>
+                                <li class="list">Profession "JavaScript Developer"(in progress)</li>
                             </ul>            
                         </li>
                         <li><a href="https://netology.ru/" class="link">Netology</a>
                             <ul class="edu-list">
-                                <li li class="list">Professional retraining courses, "JavaScript Developer"</li>
+                                <li class="list">Professional retraining courses, "JavaScript Developer"</li>
                             </ul>            
                         </li>
                         <li>Udemy
@@ -146,7 +146,7 @@
                         <li><a class="link" href="https://www.w3schools.com/" target="_blank">W3Schools</a></li>
                         <li> SMM-school
                             <ul class="edu-list">
-                                <li li class="list">SMM-manager</li>
+                                <li class="list">SMM-manager</li>
                             </ul>
                         </li>                   
                         <li>Maxim Gorky Literature Institute
