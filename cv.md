@@ -75,6 +75,7 @@ As part of my study I independently created:
 - **[HTML Academy](https://htmlacademy.ru/profile/karnausova)**
   - Profession "JavaScript Developer"(in progress)
 - **[Netology](https://netology.ru/)**
+  - Professional retraining courses, "JavaScript Developer"
 - **Udemy:**
   - [Web Developer (in progress)](https://www.udemy.com/course/the-complete-web-developer-zero-to-mastery/)
   - [JavaScript (in progress)](https://www.udemy.com/course/javascript-zero-to-junior-developer/)
