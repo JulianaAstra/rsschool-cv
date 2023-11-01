@@ -24,7 +24,7 @@ I am a data markup specialist in Yandex. Previously, I was looking for myself in
 - Git, GitHub
 - VS Code, Sublime
 - HTML5
-- CSS5
+- CSS
 - JS (ES6)
 - TS (basics)
 - React (in progress)
