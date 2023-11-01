@@ -73,7 +73,6 @@ ul.navigation a:active {
 ul.navigation a:hover {
   position: relative;
   top: -5px;
-  
 }
 
 .basic_information {
@@ -83,7 +82,7 @@ ul.navigation a:hover {
   margin: 0 24px;
   padding-left: 20px;
   padding-right: 20px;
-  padding-bottom: 60px;
+  padding-bottom: 200px;
   background: #fafafa;
 }
 
@@ -114,7 +113,6 @@ body {
 .wrapper {
     width:960px;
     margin:0 auto 50px;
-
 }
 
 .wrapper_footer {
@@ -122,9 +120,9 @@ body {
   margin:0 auto;
 }
 
-.javascript {
-  background: #fafafa !important;
-  font-size: 15px !important;
+code.javascript {
+  background: #fafafa;
+  font-size: 15px;
 }
 
 .list_skills {
