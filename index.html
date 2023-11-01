@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style/style.css">
+    <script src="https://yastatic.net/jquery/3.3.1/jquery.min.js"></script>
+    <script src='https://yastatic.net/highlightjs/8.2/highlight.min.js'></script>
+    <script>hljs.initHighlightingOnLoad();</script>
+    <link href='https://yastatic.net/highlightjs/8.2/styles/solarized_light.min.css' rel='stylesheet'/>
+</head>
+<body>
+    <div class="wrapper">
+        <header>
+            <nav>
+                <ul class="navigation">
+                    <li><a href="#contacts">Contacts</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#code">Code</a></li>
+                    <li><a href="#experience">Experience</a></li>
+                    <li><a href="#education">Education</a></li>
+                    <li><a href="#lang">Languages</a></li>
+                </ul>
+            </nav>
+        </header>
+        <main>
+            <div class="basic_information">
+                <section class="avatar">
+                    <img class="face" src="img/avatar+.png" alt="photo" width="150" height="150">
+                    <h1>Julia Karnausova</h1>
+                    <p class="job">Junior <br> Frontend Developer</p>
+                </section>
+                <section>
+                    <h2><a name="contacts"></a> information</h2>
+                    <hr>
+                        <h3>Phone</h3> 
+                        <p>+7 920 969 39 99</p>
+                        <h3>E-mail</h3>
+                        <p>julianaas@yandex.ru</p>
+                        <h3>Discord rs-school</h3> 
+                        <a class="link" href="https://discordapp.com/users/378196210835521536/" target="_blank">Julia Karnausova (@JulianaAstra)</a>
+                </section>
+                <section>
+                    <h2><a name="skills"></a>Skills and Proficiency</h2>
+                    <hr>
+                    <ul class="list_skills">
+                        <li>Git, GitHub</li>
+                        <li>VS Code, Sublime</li>
+                        <li>HTML5</li>
+                        <li>CSS</li>
+                        <li>JS (ES6)</li>   
+                        <li>TS (basics)</li>
+                        <li>React (in progress)</li>
+                        <li>Figma, Adobe Photoshop</li>
+                    </ul>
+                </section>
+                <section>
+                    <h2><a name="lang"></a>Languages</h2>
+                    <hr>
+                    <ul class="languages">
+                        <li><b>English</b> - A2</li>
+                        <li><b>Russian</b> - Native</li>
+                        <li><b>German</b> - Beginner</li>
+                    </ul>
+                </section>
+            </div>
+            <div class="more_information">          
+                <section>
+                    <h2><a name="about"></a>Briefly About Myself</h2>
+                    <p class="about">I am a data markup specialist in Yandex. Previously, I was looking for myself in creativity, but for two years I have been studying programming in order to change direction. I have always been interested in computer science, so I decided to try myself in programming. Now I want to become a frontend developer and start a career in this field. I've graduated in JS developer (professional retraining courses) at Netology. I'm finishing studying in HTML Academy (JS Developer) at the moment. Among my strengths are the self-studying and searching for information, system thinking, and a creative approach to work.</p>
+                </section>
+                <section>
+                    <h2><a name="code"></a>Code example</h2>
+                    <pre>
+<code class="javascript">
+        const canConstruct = (ransomNote, magazine) => {
+            const array = magazine.split('');
+            for (elem of ransomNote) {
+                if (array.indexOf(elem) === -1) {
+                    return false;
+                } else {
+                    array.splice(array.indexOf(elem), 1);
+                }
+            }
+            return true;
+        };
+</code>    
+                    </pre>
+                </section>
+                <section>
+                    <h2><a name="experience"></a>Experience</h2>
+                    <hr>
+                    <p>As part of my study I independently created:</p>
+                    <ul>
+                        <li>Two projects at HTML Academy:
+                            <ul class="edu-list">
+                                <li class="list">
+                                    <a href="https://github.com/JulianaAstra/Big-Trip" class="link">Big-Trip</a>
+                                </li>
+                                <li class="list">
+                                    <a href="https://github.com/JulianaAstra/Kekstagram" class="link">Kekstagram</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li>Final project in Netology:
+                            <ul class="edu-list">
+                                <li class="list">
+                                    <a href="https://github.com/JulianaAstra/Netology-Diploma" class="link">Diploma</a>
+                                </li>
+                            </ul>
+                        </li>
+                    </ul>
+                </section>
+                <section>
+                    <h2><a name="education"></a>Education</h2>
+                    <hr>
+                    <ul class="education">
+                        <li><a href="https://htmlacademy.ru/profile/karnausova" class="link">HTML Academy</a>
+                            <ul class="edu-list">
+                                <li class="list">Profession "JavaScript Developer"(in progress)</li>
+                            </ul>            
+                        </li>
+                        <li><a href="https://netology.ru/" class="link">Netology</a>
+                            <ul class="edu-list">
+                                <li class="list">Professional retraining courses, "JavaScript Developer"</li>
+                            </ul>            
+                        </li>
+                        <li>Udemy
+                            <ul class="edu-list">
+                                <li class="list"><a class="link" href="https://www.udemy.com/course/the-complete-web-developer-zero-to-mastery/" target="_blank">Web Developer (in progress)</a></li>
+                                <li class="list"><a class="link" href="https://www.udemy.com/course/javascript-zero-to-junior-developer/" target="_blank">JavaScript (in progress)</a></li>
+                            </ul>
+                        </li>
+                        <li><a class="link" href="https://ru.code-basics.com/" target="_blank">CodeBasics</a></li>
+                        <li><a class="link" href="https://www.w3schools.com/" target="_blank">W3Schools</a></li>
+                        <li> SMM-school
+                            <ul class="edu-list">
+                                <li class="list">SMM-manager</li>
+                            </ul>
+                        </li>                   
+                        <li>Maxim Gorky Literature Institute
+                            <ul class="edu-list">
+                                <li class="list">Literature worker</li>
+                            </ul>
+                        </li>
+                    </ul>
+                </section>
+            </div>
+        </main>
+    </div>    
+    <div class="wrapper_footer">
+        <footer class="footer">
+            <div class="git-logo-name">
+                <img class="git-logo" src="img/GitHub-Mark.png" alt='git-hub logo' width="30" height="30">
+                <a class="link" href="https://github.com/JulianaAstra" target="_blank">My GitHub</a>
+            </div>
+            <p class="grid_element_2">2023</p>
+            <a class="grid_element_3" href="https://rs.school/js/" target="_blank"><img class="rs-logo" src="img/rs-logo.png" alt="rs-school logo"></a>
+        </footer>   
+    </div>     
+</body>
+</html>
