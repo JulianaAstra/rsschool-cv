@@ -63,10 +63,10 @@ function sortTrips(trips, sortType) {
 As part of my study I independently created:
 
 - **Two projects at HTML Academy:**
-  - [Big-Trip]https://github.com/JulianaAstra/Big-Trip
-  - [Kekstagram]https://github.com/JulianaAstra/Kekstagram
+  - [Big-Trip](https://github.com/JulianaAstra/Big-Trip)
+  - [Kekstagram](https://github.com/JulianaAstra/Kekstagram)
 - **Final project in Netology:**
-- [Diploma]https://github.com/JulianaAstra/Netology-Diploma
+- [Diploma](https://github.com/JulianaAstra/Netology-Diploma)
 
 ---
 
