@@ -90,6 +90,6 @@ As part of my study I independently created:
 
 ### Languages:
 
-- **English** - A1
+- **English** - A2
 - **Russian** - Native
 - **German** - Beginner
